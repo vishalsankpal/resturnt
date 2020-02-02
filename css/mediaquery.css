@@ -1,0 +1,76 @@
+@media screen and (max-width: 1200px) {
+    .about-us .section-heading::before,
+    .about-us .section-heading::after,
+    .special-dishes .section-heading::before,
+    .special-dishes .section-heading::after,
+    .food-section .section-heading::before,
+    .food-section .section-heading::after{
+		display: none
+    }
+    .mega-footer .black{
+        background: unset;
+        position: unset;
+        top: unset;
+    }
+    .footer-grid{
+        padding: unset; 
+        position: unset; 
+    }
+}
+
+@media screen and (max-width: 992px) {
+	.mega-footer {
+		background-size: cover;
+		height: auto;
+	}
+	.bg-dark {
+		background: #343a40!important;
+    }
+    nav {
+		position: absolute !important;
+		top: 0;
+		width: 100%;
+		height: auto;
+		z-index: 9;
+		z-index: 15;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	nav {
+		position: absolute !important;
+		top: 0;
+		width: 100%;
+		height: auto;
+		z-index: 9;
+		z-index: 15;
+	}
+	.navbar {
+		padding: .5rem 1rem;
+	}
+	.button-online-order {
+		font-size: 16px;
+		padding: 1rem;
+    }
+    .quick::after{
+        width: 28%;
+    }
+    .section-description{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+	.welcome h1,
+	.welcome p {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 991px) {
+	.bg-dark {
+		background-color: transparent !important;
+	}
+}
+
+

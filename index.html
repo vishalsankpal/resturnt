@@ -1,0 +1,278 @@
+﻿<!doctype html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <![endif]-->
+      <meta name="description" content="Free Web tutorials">
+      <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+      <meta name="author" content="John Doe">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="./css/style.css">
+      <link rel="stylesheet" href="./css/mediaquery.css">
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+      <title>Restaurantz</title>
+   </head>
+   <body>
+      <section class="carosal-and-nav">
+         <!-- carosal start -->
+         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+               <div class="carousel-item active" style="background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url('./images/banner-3.jpg')">
+                  <div class="container welcome">
+                     <h2 class="text-center text-white oswald">Welcome to Restaurantz</h2>
+                     <p class="text-center text-white oswald">We love restaurants as much as you do. So here we try
+                        to share
+                        our best about food quality, our mission about customer’s satisfaction and introducing
+                        services that we provide for you, your friends and family.
+                     </p>
+                     <button class="button-online-order d-block mx-auto"><span></span>Online Order</button>
+                  </div>
+               </div>
+               <div class="carousel-item" style="background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url('./images/banner-2-1.jpg')">
+                  <div class="container welcome">
+                     <h2 class="text-center text-white oswald">Delicious Food Items</h2>
+                     <p class="text-center text-white oswald">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit.
+                        Vivamus risus est, faucibus nec eros a, varius blandit neque.In sed tortor in purus rutrum
+                        dignissim id ac neque.
+                     </p>
+                     <button class="button-online-order d-block mx-auto"><span></span>Online Order</button>
+                  </div>
+               </div>
+               <div class="carousel-item" style="background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url('./images/banner-1.jpg')">
+                  <div class="container welcome">
+                     <h2 class="text-center text-white oswald">Peaceful Environment</h2>
+                     <p class="text-center text-white oswald">Suspendisse auctor nisl id dapibus interdum. Fusce at
+                        elit ac
+                        tellus ullamcorper gravida in eget neque. Sed ac ante et urna fermentum mollis id a enim.
+                     </p>
+                     <button class="button-online-order d-block mx-auto"><span></span>Book A Table</button>
+                  </div>
+               </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+         </div>
+         <!-- carosal end -->
+         <!-- navigation start-->
+         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand oswald" href="#">Restaurantz</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+               aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                     <a class="nav-link oswald" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link oswald" href="#about">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link oswald" href="#our-menu">Our Menu</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle oswald" href="#" id="navbarDropdownMenuLink"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Layout <span class="carot"></span>
+                     </a>
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item oswald" href="#">Action</a>
+                        <a class="dropdown-item oswald" href="#">Another action</a>
+                        <a class="dropdown-item oswald" href="#">Something else here</a>
+                     </div>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link oswald" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link oswald" href="#contact">Contact Us</a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+         <!-- navigation end -->
+      </section>
+      <!-- about us section -->
+      <section class="about-us" id="about">
+         <div class="container">
+            <h1 class="text-center section-heading tangerine">
+            About Us
+         </div>
+         <div class="about-content">
+            <p class="text-center section-description">
+               Welcome to Restaurantz. We love restaurants as much as you do. So here we try to share our best about
+               food quality, our mission about customer’s satisfaction and introducing services that we provide for you
+               , your friends and family We love restaurants as much as you do. That’s why we’ve been helping them fill
+               tables since 1999. Welcome to Restaurantz
+            </p>
+         </div>
+         </div>
+      </section>
+      <!-- about us  end -->
+      <!-- special dishes start -->
+      <section class="special-dishes paddingtb-5" id="our-menu">
+         <h1 class="text-center section-heading tangerine">Special Dishes</h1>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-3 pt-1 pb-1">
+                  <div class="card">
+                     <h4 class="text-center grid-heading">Beef Grill</h4>
+                     <img class="card-img-top" src="./images/g1.jpg" alt="Card image cap">
+                     <div class="buttons d-flex flex-row">
+                        <button class="food price">$35.33</button>
+                        <button class="food f1">Food</button>
+                     </div>
+                     <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis
+                           metus
+                           scelerisque, faucibus risus eu, luctus est..
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3  pt-1 pb-1">
+                  <div class="card">
+                     <h4 class="text-center grid-heading">Beef Grill</h4>
+                     <img class="card-img-top" src="./images/g1.jpg" alt="Card image cap">
+                     <div class="buttons d-flex flex-row">
+                        <button class="food price">$35.33</button>
+                        <button class="food f1">Food</button>
+                     </div>
+                     <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis
+                           metus
+                           scelerisque, faucibus risus eu, luctus est..
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3 pt-1 pb-1">
+                  <div class="card">
+                     <h4 class="text-center grid-heading">Beef Grill</h4>
+                     <img class="card-img-top" src="./images/g1.jpg" alt="Card image cap">
+                     <div class="buttons d-flex flex-row">
+                        <button class="food price">$35.33</button>
+                        <button class="food f1">Food</button>
+                     </div>
+                     <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis
+                           metus
+                           scelerisque, faucibus risus eu, luctus est..
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-3  pt-1 pb-1">
+                  <div class="card">
+                     <h4 class="text-center grid-heading">Beef Grill</h4>
+                     <img class="card-img-top" src="./images/g1.jpg" alt="Card image cap">
+                     <div class="buttons d-flex flex-row">
+                        <button class="food price">$35.33</button>
+                        <button class="food f1">Food</button>
+                     </div>
+                     <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis
+                           metus
+                           scelerisque, faucibus risus eu, luctus est..
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="food-section">
+         <div class="container">
+            <h1 class="section-heading text-center tangerine">Welcome to the our Restaurant</h1>
+            <p class="text-white text-dark text-center">
+               Welcome to Restaurantz. We love restaurants as much as you do. So here we try to share our best about
+               food quality, our mission about customer’s satisfaction and introducing services that we provide for you
+               , your friends and family We love restaurants as much as you do. That’s why we’ve been helping them fill
+               tables since 1999. Welcome to Restaurantz
+            </p>
+            <button class="button-online-order d-block mx-auto"><span></span>Download</button>
+         </div>
+      </section>
+      <!-- mega footer -->
+      <section class=" mega-footer" id="contact">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-4 black">
+                  <div class="footer-grid">
+                     <h3 class="footer-head text-white tangerine text-center text-lg-left">About Us</h3>
+                     <p class="text-white text-center">Welcome to Restaurantz. We love restaurants as much as you do.
+                        So here we try to share our best about food quality, our mission about customer’s
+                        satisfaction and introducing services that we provide for you , your friends and family
+                     </p>
+                     <ul class="d-flex p-0 justify-content-center">
+                        <li>
+                           <a href="">
+                           <i class="fa fa-facebook" aria-hidden="true"></i>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="">
+                           <i class="fa fa-twitter" aria-hidden="true"></i>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="">
+                           <i class="fa fa-linkedin" aria-hidden="true"></i>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-md-1"></div>
+               <div class="col-md-4 px-3">
+                  <h4 class="text-white quick oswald">Quick Contacts</h4>
+                  <a href="tel:+977-9846120045"class="text-white oswald"><span></span>Phone:+977-9846120045</a> <br>
+                  <a href="" class="text-white oswald"><span></span>Fax: +977-9846120045</a><br>
+                  <a href="mailto:info@wenthemes.com" class="text-white oswald"><span></span>Email: info@wenthemes.com</a>
+                  <p class="text-white oswald"><span></span>Address: Jawlakhel , Kathmandu, Nepal</p>
+               </div>
+               <div class="col-md-3 px-3">
+                  <h4 class="text-white quick oswald">Quick Contacts</h4>
+                  <ul class="p-0">
+                     <li><a href="" class="text-white oswald">Home</a></li>
+                     <li><a href="" class="text-white oswald">About Us</a></li>
+                     <li><a href="" class="text-white oswald">Blog</a></li>
+                     <li><a href="" class="text-white oswald">Contact Us</a></li>
+                     <li><a href="" class="text-white oswald">Our Menu</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer>
+         <div class="container">
+            <h5 class="text-center text-white">Copyright &copy; All rights reserved.</h5>
+         </div>
+      </footer>
+      <!-- special dishes start -->
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+   </body>
+</html>
